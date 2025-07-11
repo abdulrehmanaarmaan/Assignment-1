@@ -12,21 +12,65 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: white;
   color: #111;
+
+}
+
+a:hover {
+  color: black;
+  background-color: #f7c948;
 }
 
 /* Header */
 .header {
+  
+}
+
+.container {
   display: flex;
   justify-content: space-between;
+}
+
+.hero-section {
   align-items: center;
-  padding: 20px 40px;
+}
+
+header {
+  background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+.container {
+  display: flex;
+}
+
+header, .container{
+  justify-content: space-between;
+
 }
 
 .logo {
   color: #2e6bff;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 50px;
+  margin-top: 50px;
 }
+
+button:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
+.width {
+  text-align: center;
+  height: 76px;
+}
+
+a:hover {
+  color: black;
+background-color: #f7c948;
+}
+
+
 
 .signup-btn {
   background-color: #2e6bff;
@@ -35,13 +79,17 @@ body {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+  margin-top: 50px;
+  margin-right: 50px;
 }
 
 /* Hero Section */
 .hero-section {
   text-align: center;
-  padding: 60px 20px;
+  
 }
+
+
 
 .hero-section h2 {
   font-size: 32px;
@@ -52,11 +100,13 @@ body {
 .cta-btn {
   background-color: #2e6bff;
   color: white;
-  padding: 12px 25px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+  font-weight: bold;
+  padding: 10px 18px;
+  margin-bottom: 152px;
 }
 
 /* See It in Action Section */
@@ -68,8 +118,19 @@ body {
   flex-wrap: wrap;
 }
 
+.stats-section2 {
+  border: none;
+  margin-top: 50px 142px;
+  background-color: #c8c8da;
+  border-radius: 24px;
+}
+
 .action-text {
   max-width: 400px;
+}
+ 
+.stat-box, p {
+  color: #000000;
 }
 
 .action-text h3 {
@@ -171,6 +232,11 @@ body {
   background-color: #ffffff;
 }
 
+.hero-btn:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
 .hero-container {
   max-width: 800px;
   margin: 0 auto;
@@ -198,7 +264,7 @@ body {
   border-radius: 5px;
   font-weight: 600;
   margin-bottom: 32px;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .hero-btn:hover {
@@ -222,6 +288,15 @@ body {
   display: flex;
   justify-content: center;
   background-color: #fff;
+}
+
+.contact-section, h2 {
+  margin: 150px 0 200px;
+}
+
+.hover:hover {
+  color: black;
+  background-color: #f7c948;
 }
 
 .contact-container {
@@ -281,8 +356,8 @@ body {
 /* Footer */
 .footer {
   text-align: center;
-  padding: 40px 20px;
-  background-color: #f3f3f3;
+  margin-top: 103px;
+  margin-bottom: 104px;
 }
 
 .footer-logo {
@@ -309,10 +384,43 @@ body {
   text-decoration: underline;
 }
 
+.all section {
+  background-color: #f9fafc;
 
+}
 
+.footer-text {color: #8987A1}
 
+.anchor {color: #8987A1}
 
+.logo, .signup-btn {
+  justify-content: space-between;
+}
+
+a:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
+button:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
+.hero-btn:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
+.yesno:hover {
+  color: black;
+  background-color: #f7c948;
+}
+
+.anchor:hover {
+  background-color: none;
+  color: none;
+}
 
 
 
