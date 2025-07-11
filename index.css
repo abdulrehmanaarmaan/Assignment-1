@@ -118,12 +118,8 @@ background-color: #f7c948;
   flex-wrap: wrap;
 }
 
-.stats-section2 {
-  border: none;
-  margin-top: 50px 142px;
-  background-color: #c8c8da;
-  border-radius: 24px;
-}
+
+
 
 .action-text {
   max-width: 400px;
@@ -227,6 +223,7 @@ background-color: #f7c948;
 
 /* Hero Section Styling */
 .ero-section {
+  border: solid white;
   padding: 60px 20px;
   text-align: center;
   background-color: #ffffff;
@@ -288,6 +285,7 @@ background-color: #f7c948;
   display: flex;
   justify-content: center;
   background-color: #fff;
+  margin: none
 }
 
 .contact-section, h2 {
@@ -346,25 +344,21 @@ background-color: #f7c948;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: 0.3s;
 }
 
-.contact-form button:hover {
-  background-color: #0044cc;
-}
 
 /* Footer */
 .footer {
   text-align: center;
-  margin-top: 103px;
-  margin-bottom: 104px;
 }
 
 .footer-logo {
-  font-size: 1.8rem;
-  color: #0057ff;
-  font-weight: bold;
+  font-size: 100px;
+  color: #4E47FF;
+  font-weight: bolder;
   margin-bottom: 15px;
+  margin-top: 104px;
 }
 
 .footer-text {
@@ -381,7 +375,7 @@ background-color: #f7c948;
 }
 
 .footer-nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .all section {
@@ -395,6 +389,10 @@ background-color: #f7c948;
 
 .logo, .signup-btn {
   justify-content: space-between;
+}
+
+.footer-nav {
+  margin-bottom: 103px;
 }
 
 a:hover {
@@ -415,20 +413,47 @@ button:hover {
 .yesno:hover {
   color: black;
   background-color: #f7c948;
+  
 }
 
 .anchor:hover {
-  background-color: none;
-  color: none;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-container {
+  border: solid white;
+  padding: 71px 150px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.anchor {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.footer-nav:hover {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+  
+
+
+
+.contact-container {
+  margin: none
 }
 
 
 
-
-
-
-
-
+.stats-section2 {
+  margin-left: 125px
+}
 
 
 
